@@ -22,3 +22,12 @@ todo
 
 
 
+
+## Creating a connection
+
+2 sockets are created. One is for the chat on the side and the other is for the game.
+
+for the game connection
+
+establish websocket and send `40` followed by `{"joinGame", "bombParty", code, token}
+
